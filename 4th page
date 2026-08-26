@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man United News</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #d00027;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            text-align: center;
+            margin-top: 40px;
+        }
+        img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="stadium.html">Stadium</a>
+        <a href="news.html">News</a>
+    </nav>
+    <div class="content">
+        <h1>Manchester United News</h1>
+        <p>The latest match results, transfer news, and club updates.</p>
+        <h2>Match Result</h2>
+        <p>Manchester United delivered a strong performance in their latest fixture, with fans packing Old Trafford to cheer the team on.</p>
+        <h2>Transfer News</h2>
+        <p>The club continues to strengthen its squad ahead of the season, with several new signings linked to the team.</p>
+        <img src="images/manutdlogo.webp" alt="Manchester United Club Crest">
+    </div>
+</body>
+</html>
